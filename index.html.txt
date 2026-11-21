@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>星际单词火箭 · Space Vocabulary Rocket</title>
+  <!-- 引入 Tailwind CSS 构建响应式现代化界面 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- 引入 SheetJS 与 Mammoth 以支持 Excel (.xlsx/.xls) 与 Word (.docx) 词表解析 -->
+…          customTimeLimit: gameState.timeLimit
+        });
+      });
+
+      // 启动 Canvas 60fps 动画循环
+      requestAnimationFrame(mainLoop);
+    };
+  </script>
+</body>
+</html>
